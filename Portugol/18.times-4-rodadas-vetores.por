@@ -7,20 +7,23 @@ programa
 
 		
 		cadeia times[] = {"PALMEIRAS", "SANTOS", "SPFC", "CORINTHIANS"}
-		inteiro pontosPorTime[4]  
+		inteiro pontosPorTime[4]
 		caracter resultado
 
 		para (inteiro rodada = 1; rodada <= 4; rodada++) {
 
+			limpa()
 			escreva("Rodada " + rodada + ".\n")
 			
+			
 			para (inteiro x = 0; x < 4; x++) {
+
 				
 				escreva("O time " + times[x] + " ganhou, perdeu ou empatou? ")
 				leia(resultado)
 
 				se (resultado == 'g' ou resultado == 'G') {
-					pontosPorTime[x] = pontosPorTime + 3
+					pontosPorTime[x] += 3
 				} senao se (resultado == 'e' ou resultado == 'E') {
 					pontosPorTime[x] += 1
 				} senao se (resultado == 'p' ou resultado == 'P') {
@@ -44,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 750; 
+ * @POSICAO-CURSOR = 283; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
