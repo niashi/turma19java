@@ -21,7 +21,7 @@ public class Ex3 {
 		
 		
 		
-		System.out.printf("Horas: %.0f" , horas );      	// %f: double. (%f.2: formata com 2 casa decimais após a vírgula).
+		System.out.printf("Horas: %.0f" , horas);      	// %f: double. (%f.2: formata com 2 casa decimais após a vírgula).
 															// OBS.: Nesse caso, usar a vírgula para concatenação.
 		
 		System.out.printf("\nMinutos: %.0f" , minutos);
