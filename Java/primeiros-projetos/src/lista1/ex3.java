@@ -2,7 +2,7 @@ package lista1;
 
 import java.util.Scanner;
 
-public class ex3 {
+public class Ex3 {
 	
 	public static void main(String[] args) {
 		
@@ -20,7 +20,7 @@ public class ex3 {
 		segundos = ((tempoTotalSegundos % 3600) % 60);
 		
 		
-	
+		
 		System.out.printf("Horas: %.0f" , horas );      	// %f: double. (%f.2: formata com 2 casa decimais após a vírgula).
 															// OBS.: Nesse caso, usar a vírgula para concatenação.
 		
