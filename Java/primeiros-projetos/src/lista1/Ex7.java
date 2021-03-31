@@ -8,6 +8,7 @@ public class Ex7 {
 		
 		// Sistema que lê valores e descobre x e y com base neles.
 		
+		
 		int a, b, c, d, e, f;
 		double x, y;
 		

@@ -8,6 +8,7 @@ public class Ex3 {
 		
 		// Sistema que lê o dtempo de duração de um evento em segundos e o transforma em horas, minutos e segundos.
 		
+		
 		double tempoTotalSegundos, horas, minutos, segundos;
 		
 		Scanner leia = new Scanner(System.in);

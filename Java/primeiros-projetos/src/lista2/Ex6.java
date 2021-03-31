@@ -9,6 +9,7 @@ public class Ex6 {
 		// Elaborar sistema que classifique um nadador segundo as categorias INFANTIL A (5 a 7 anos), INFANTIL B (8 a 		 
 		// 11 anos), JUVENIL A (12 a 13 anos), JUVENIL B (14 a 17 anos) e ADULTOS (maior de 18 anos).
 		
+		
 		int idade;
 		
 		Scanner leia = new Scanner(System.in);

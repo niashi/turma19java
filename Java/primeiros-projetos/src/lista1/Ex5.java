@@ -8,6 +8,7 @@ public class Ex5 {
 			
 		 	// Sistema que lê 3 notas de um aluno e calcula a média final ponderada, sendo os pesos das notas, respectivamente, 2, 3 e 5.
 		
+			
 			double nota1, nota2, nota3, mediaFinal;
 			
 			Scanner leia = new Scanner(System.in);

@@ -11,6 +11,7 @@ public class Ex1 {
 		// e a multa nas variáveis E e M, respectivamente. Se não houver excesso, gravar
 		// o valor 0 nessas variáveis. 
 		
+		
 		double P, E, M;
 		
 		Scanner leia = new Scanner(System.in);

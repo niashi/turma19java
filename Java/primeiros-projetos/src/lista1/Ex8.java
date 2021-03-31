@@ -8,6 +8,7 @@ public class Ex8 {
 		
 		// Programa que informa o custo de um carro ao consumidor, utilizando porcentagem do distribuidor e impostos como parâmetros.
 		
+		
 		double custoFabrica, custoConsumidor;
 		
 		Scanner leia = new Scanner(System.in);

@@ -13,6 +13,7 @@ public class Ex2 {
 		// 50). Cada hora excedente de trabalho vale R$ 20,00. No fim, imprimir o salário total
 		// e o excedente.
 		
+		
 		double N, E, salario;
 		String senha = "Generation";
 		

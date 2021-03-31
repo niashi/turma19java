@@ -3,10 +3,11 @@ package lista1;
 import java.util.Scanner;
 
 public class Ex1 {
-
-		// Sistema que lê a idade de uma pessoa em anos, meses e dias e a transforma para dias.
 	
 		public static void main(String[] args) {
+			
+			// Sistema que lê a idade de uma pessoa em anos, meses e dias e a transforma para dias.
+			
 			
 			int anos, meses, dias, diasTotais;
 			

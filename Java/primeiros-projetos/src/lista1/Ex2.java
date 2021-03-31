@@ -8,6 +8,7 @@ public class Ex2 {
 		
 		// Sistema que lê a idade de uma pessoa em dias e a mostra em anos, meses e dias.
 		
+		
 		int idadeDias, dias, diasEmAnos, diasEmMeses;
 
 		Scanner leia = new Scanner(System.in);

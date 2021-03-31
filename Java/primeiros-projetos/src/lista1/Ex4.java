@@ -8,6 +8,7 @@ public class Ex4 {
 		
 		// Sistema que calcula a seguinte expressão: D = (R + S) / 2, sendo R = (A + B)² e S = (B + C)².
 		
+		
 		int A, B, C;		
 		double D, R, S;
 		

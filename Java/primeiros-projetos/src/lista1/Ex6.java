@@ -9,6 +9,7 @@ public class Ex6 {
 		
 		// Programa que escreve a distância entre 2 pontos.
 		
+		
 		int x1, x2, y1, y2;
 		double d;
 		
