@@ -17,14 +17,16 @@ public class Ex6 {
 		
 		int[] numeros = new int[10];
 		String[] ordem = {"primeiro", "segundo", "terceiro", "quarto", "quinto", "sexto", "sétimo", "oitavo", "nono", "décimo"};
-		int numero, somaMultiplos3 = 0, x = 0;
-		double media;
+		int numero, x = 0;
+		double media, somaMultiplos3 = 0;
 		
 		do {
-			System.out.print("\nInsira o " + ordem[x] + " valor: ");
+			System.out.print("Insira o " + ordem[x] + " valor: ");
 			numeros[x] = leia.nextInt();
 			if ((numeros[x] % 3) == 0) {
 				somaMultiplos3 += numeros[x];
+			} else if (numeros[x] == 0) {
+				break;
 			}
 			x++;
 		} while (x < 10);
@@ -34,6 +36,7 @@ public class Ex6 {
 		
 		System.out.println(somaMultiplos3);
 		System.out.println(numeros.length);
-		System.out.printf("A média dos números múltiplos de três é %f." , media);
+		System.out.println(media);
+		System.out.printf("A média dos números múltiplos de três é %.5f." , media);
 	}
 }
