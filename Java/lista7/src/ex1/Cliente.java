@@ -8,13 +8,13 @@ public class Cliente {
 	private String cpf;
 	
 	// Construtor
-	public Cliente (String primeiro, String ultimo, String cpf1) { // O nome do construtor será sempre o
-		primeiroNome = primeiro;								   // nome da classe (neste caso, Cliente).
-		ultimoNome = ultimo;
-		cpf = cpf1;
+	public Cliente (String primeiroNome, String ultimoNome, String cpf) { // O nome do construtor será sempre o
+		this.primeiroNome = primeiroNome;								   // nome da classe (neste caso, Cliente).
+		this.ultimoNome = ultimoNome;
+		this.cpf = cpf;
 	}
 	
-	// Método
+	// Métodos
 	public String getNomeCompleto() {
 		String nomeCompleto = primeiroNome + " " + ultimoNome;
 		return nomeCompleto;
