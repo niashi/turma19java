@@ -33,13 +33,11 @@ public class Animal {
 	// Métodos
 	public void emitirSom(String som) {
 		if (som == "au") {
-			System.out.println("au");
-		} else if (som == "hiin in in hinir") {
+			System.out.println("au au");
+		} else if (som == "hiin") {
 			System.out.println("hiin in in hinir");
-		}			
-	}
-	
-	public void correr() {
-		System.out.println("O animal saiu correndo...");
+		} else if (som == "aaaa") {
+			System.out.println("aaaa");
+		}
 	}
 }
