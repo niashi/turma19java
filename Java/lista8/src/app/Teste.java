@@ -13,19 +13,19 @@ public class Teste {
 		Preguica slakoth = new Preguica("Slakoth", 5, 20);
 		
 		System.out.println(trapo.getNome() + " - " + trapo.getIdade() + " anos e pelagem " + trapo.getPelagem());
-		trapo.emitirSom("au");
+		trapo.emitirSom();
 		trapo.correr();
 		
 		System.out.println();
 		
-		System.out.println(ponita.getNome() + " - " + ponita.getIdade() + " anos e " + ponita.getAltura() + "m de altura.");
-		ponita.emitirSom("hiin");
+		System.out.println(ponita.getNome() + " - " + ponita.getIdade() + " anos e " + ponita.getAltura() + " m de altura.");
+		ponita.emitirSom();
 		ponita.correr();
 		
 		System.out.println();
 		
-		System.out.println(slakoth.getNome() + " - " + slakoth.getIdade() + " anos e " + slakoth.getTamanhoGarras() + "cm de garras.");
-		slakoth.emitirSom("aaaa");
+		System.out.println(slakoth.getNome() + " - " + slakoth.getIdade() + " anos e " + slakoth.getTamanhoGarras() + " cm de garras.");
+		slakoth.emitirSom();
 		slakoth.subirEmArvore();
 	}
 }

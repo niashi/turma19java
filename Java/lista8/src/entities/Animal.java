@@ -6,7 +6,7 @@ public class Animal {
 	private String nome;
 	private int idade;
 	
-	//Construtor
+	// Construtor
 	public Animal(String nome, int idade) {
 		super();
 		this.nome = nome;
@@ -32,12 +32,6 @@ public class Animal {
 	
 	// Métodos
 	public void emitirSom(String som) {
-		if (som == "au") {
-			System.out.println("au au");
-		} else if (som == "hiin") {
-			System.out.println("hiin in in hinir");
-		} else if (som == "aaaa") {
-			System.out.println("aaaa");
-		}
+		System.out.println("Som genérico de animal.");
 	}
 }
