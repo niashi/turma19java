@@ -17,6 +17,5 @@ public class Celular extends Produto {
 
 	public void setArmazenamento(double armazenamento) {
 		this.armazenamento = armazenamento;
-	}
-	
+	}	
 }

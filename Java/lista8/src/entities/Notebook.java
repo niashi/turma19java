@@ -18,5 +18,4 @@ public class Notebook extends Produto {
 	public void setStatus(boolean status) {
 		this.status = status;
 	}
-
 }

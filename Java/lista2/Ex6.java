@@ -31,7 +31,6 @@ public class Ex6 {
 			System.out.println("\nVocê faz parte da categoria JUVENIL B.\n");
 		} else {
 			System.out.println("\nVocê faz parte da categoria ADULTOS.\n");
-		}
-		
+		}		
 	}
 }

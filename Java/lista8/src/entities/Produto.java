@@ -18,16 +18,15 @@ public abstract class Produto {
 		return marca;
 	}
 
-	private void setMarca(String marca) {
+	public void setMarca(String marca) {
 		this.marca = marca;
 	}
 
-	public String getPreço() {
-		return preço;
+	public double getPreco() {
+		return preco;
 	}
 
-	private void setPreço(String preço) {
-		this.preço = preço;
+	public void setPreco(double preco) {
+		this.preco = preco;
 	}
-	
 }
