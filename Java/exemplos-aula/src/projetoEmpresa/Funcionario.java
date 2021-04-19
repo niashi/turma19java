@@ -1,4 +1,4 @@
-package entities;
+package projetoEmpresa;
 
 public class Funcionario {
 	// classe funcionário: nome, matrícula, horasTrabalhadas, valorPorHora

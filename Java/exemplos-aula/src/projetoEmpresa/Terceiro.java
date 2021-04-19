@@ -1,4 +1,4 @@
-package entities;
+package projetoEmpresa;
 
 public class Terceiro extends Funcionario {
 

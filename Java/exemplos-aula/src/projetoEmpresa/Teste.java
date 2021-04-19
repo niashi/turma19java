@@ -1,12 +1,9 @@
-package app;
+package projetoEmpresa;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
-
-import entities.Funcionario;
-import entities.Terceiro;
 
 public class Teste {
 
